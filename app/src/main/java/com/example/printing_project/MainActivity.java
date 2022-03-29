@@ -120,12 +120,10 @@ public class MainActivity extends AppCompatActivity {
 
             addNewItemWithLeftAndRight(document,"Pizza 25","(0.0%)",titleFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"12.0*1000","12000.0",titleFont,orderNumberValueFont);
-
             addLineSeperator(document);
 
             addNewItemWithLeftAndRight(document,"Pizza 25","(0.0%)",titleFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"12.0*1000","12000.0",titleFont,orderNumberValueFont);
-
             addLineSeperator(document);
 
             addLineSpace(document);
@@ -134,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
             document.close();
 
             Toast.makeText(this,"Success",Toast.LENGTH_SHORT).show();
-
             printPDF();
 
 

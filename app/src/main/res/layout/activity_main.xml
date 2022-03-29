@@ -5,11 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
 
         android:id="@+id/PdfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Pdf "
+         />
+    <Button
+
+        android:id="@+id/PdfButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Pdf "
