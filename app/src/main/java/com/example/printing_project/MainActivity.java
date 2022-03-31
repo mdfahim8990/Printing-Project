@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             document.open();
             document.setPageSize(PageSize.A4);
             document.addCreationDate();
-            document.addAuthor("fahim");
+            document.addAuthor("Fahim");
             document.addCreator("Famin");
 
             BaseColor colorAccent = new BaseColor(0, 153, 204, 255);
